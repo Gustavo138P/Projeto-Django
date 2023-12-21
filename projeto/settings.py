@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'home',
+    'inicial',
     'projetos',
 ]
 
@@ -57,7 +57,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            BASE_DIR / 'home',
+            BASE_DIR / 'inicial',
             BASE_DIR / 'projetos',
         ],
         'APP_DIRS': True,
